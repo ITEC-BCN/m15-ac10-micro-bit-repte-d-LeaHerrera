@@ -4,6 +4,8 @@ basic.forever(function () {
     } else {
         basic.showString("Fred")
     }
+    basic.showString("" + (input.temperature()))
+    basic.showString("C")
 })
 basic.forever(function () {
     if (input.lightLevel() > 200) {
